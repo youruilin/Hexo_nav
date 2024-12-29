@@ -1,15 +1,15 @@
 @import "//at.alicdn.com/t/c/font_4763045_3tu2c7idbq4.css";
 
-.iconfont {
+  /* 可以定义图标大小 */
+/* .iconfont {
   font-family: "iconfont" !important;
   font-size: 3em;
-  /* 可以定义图标大小 */
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  }
+  } */
   /* 若已经在项目设置中勾选了彩色选项，则无需再定义图标颜色*/
-  .icon-rat:before {
+  /* .icon-rat:before {
     color: #85c3de;
   }
   .icon-ox:before {
@@ -44,4 +44,9 @@
   }
   .icon-boar:before {
     color: #ffbdd8;
-  }
+  } */
+
+.tooltip {
+  display: none !important;
+}
+  
